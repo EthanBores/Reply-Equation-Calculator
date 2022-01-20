@@ -2,7 +2,7 @@
 
 ## Description
 
-### If you're as socially inept as I am, this calculator will help you determine how long you should take (in minutes) to reply to a Snapchat or text message from another person.
+#### If you're as socially inept as I am, this calculator will help you determine how long you should take (in minutes) to reply to a Snapchat or text message from another person.
 
 ##  Publication
 
