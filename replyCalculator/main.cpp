@@ -7,20 +7,20 @@ using namespace std;
 int main()
 {
 	int choice = 0;
-	bool exit = false;
 
-	while (!exit)
+	while (1)
 	{
 		printMenu();
 
 		cin >> choice;
 
-		switch (choice)
-		{
-		case 1:	replyCalculator();
-		case 2: exit = true;
+		if (choice == 1)
+			replyCalculator();
 
-		default: continue;
-		}
+		else if (choice == 2)
+			break;
+
+		else
+			continue;
 	}
 }
