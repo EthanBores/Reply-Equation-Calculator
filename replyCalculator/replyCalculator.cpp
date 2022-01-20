@@ -17,9 +17,9 @@ double TsubL(double L)
 // 
 //	Post:	Double is returned after calcuation.
 
-double Tsubtrn(double trn)
+double Tsubtrn(double trn, double trn1)
 {
-	return (0.6666666666 * trn) + (0.3333333333 * (trn - 1));
+	return (0.6666666666 * trn) + (0.3333333333 * (trn1));
 }
 
 //	Desc:	Function to return (double) calculation of T sub C function.
@@ -52,7 +52,7 @@ void replyCalculator()
 
 
 	//	Variables to be entered by user.
-	double tsubtrn = 0.0, Cg = 0.0, l = 0.0;
+	double tsubtrn = 0.0, tsubtrn1 = 0.0, Cg = 0.0, l = 0.0;
 
 	//	Contants to be calculated.
 	double T = 0.0, Tc = 0.0, Tl = 0.0, Trn = 0.0;
@@ -68,7 +68,11 @@ void replyCalculator()
 	//	T sub tr sub n calculation.
 	cout << "\n\tTime in minutes:\t";
 	cin >> tsubtrn;
-	Trn = Tsubtrn(tsubtrn);
+	
+	cout << "\n\tTime of previous reply in minutes:\t";
+	cin >> tsubtrn1;
+
+	Trn = Tsubtrn(tsubtrn, tsubtrn1);
 
 
 	//	T sub C calculation.
