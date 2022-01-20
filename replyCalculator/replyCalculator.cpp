@@ -35,7 +35,7 @@ double TsubC(double Cg, double Cb)
 	return (10.0 / Cg) + (70 * Cb);
 }
 
-//	Desc:	Master program to handle Foid Reply Equation calculations.
+//	Desc:	Master program to handle Reply Equation calculations.
 // 
 //	Pre:	None (void)
 // 
