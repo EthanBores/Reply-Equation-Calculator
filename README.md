@@ -4,7 +4,7 @@
 
 ##### This calculator will help you determine how long you should take before replying to a message from a friend/acquaintance. Use these calculations at your own risk.
 
-##### Credit goes to the anonymous user on a forum.
+##### Credit goes to an anonymous user on a forum.
 
 ##### Equation slightly tweaked by me in order to handle Snapchat replies.
 
