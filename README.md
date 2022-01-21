@@ -2,7 +2,7 @@
 
 ## Description
 
-##### This calculator attempts to bridge the gap between qualitative and quantitative data in societal interactions. will help you determine how long you should take before replying to a message from a friend/acquaintance. Use these calculations at your own risk.
+##### This calculator attempts to bridge the gap between qualitative and quantitative data in societal interactions. This will help you determine how long you should take before replying to a message from a friend/acquaintance. Use these calculations at your own risk.
 
 ##### Credit goes to an anonymous user on a math/science forum.
 
